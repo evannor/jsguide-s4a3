@@ -20,7 +20,7 @@ for (const number of newArray){
 }
 
 // Print out items of array backwards
-for (i = newArray.length; i >= 0; i--) {
+for (i = newArray.length - 1; i >= 0; i--) {
   console.log(newArray[i]);
 }
 
