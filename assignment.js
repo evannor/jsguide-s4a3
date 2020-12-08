@@ -14,6 +14,12 @@ for (i=0; i< newArray.length; i++) {
 }
 console.log(evenArray);
 
+// Print out each item in array
 for (const number of newArray){
   console.log(number);
+}
+
+// Print out items of array backwards
+for (i = newArray.length; i >= 0; i--) {
+  console.log(newArray[i]);
 }
